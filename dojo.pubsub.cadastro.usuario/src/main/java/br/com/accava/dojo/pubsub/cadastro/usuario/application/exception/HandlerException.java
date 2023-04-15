@@ -1,7 +1,8 @@
-package br.com.accava.dojo.pubsub.application.exception;
+package br.com.accava.dojo.pubsub.cadastro.usuario.application.exception;
 
-import br.com.accava.dojo.pubsub.domain.exception.MessageError;
-import br.com.accava.dojo.pubsub.domain.exception.UserInvalidException;
+
+import br.com.accava.dojo.pubsub.cadastro.usuario.domain.exception.MessageError;
+import br.com.accava.dojo.pubsub.cadastro.usuario.domain.exception.UserInvalidException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

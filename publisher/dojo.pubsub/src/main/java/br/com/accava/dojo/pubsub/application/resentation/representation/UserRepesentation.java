@@ -13,10 +13,10 @@ import lombok.Setter;
 @AllArgsConstructor
 public class UserRepesentation {
 
-    private PhoneRepresentation phone;
     private String email;
     private String password;
     private String lastName;
     private String firstName;
+    private PhoneRepresentation phone;
 
 }

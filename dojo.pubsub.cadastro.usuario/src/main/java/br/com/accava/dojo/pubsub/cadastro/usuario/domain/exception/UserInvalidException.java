@@ -1,4 +1,4 @@
-package br.com.accava.dojo.pubsub.domain.exception;
+package br.com.accava.dojo.pubsub.cadastro.usuario.domain.exception;
 
 import lombok.Getter;
 
