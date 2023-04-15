@@ -33,7 +33,7 @@ public class PhoneEntity implements Serializable {
     private Long id;
 
     @OneToOne
-    private g user;
+    private UserEntity user;
 
     @Column(length = 3)
     private String code;

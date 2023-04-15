@@ -24,7 +24,6 @@ public class UserRepositoryImpl implements UserRepository {
         try {
             var userEntity = UserMapper.domainToEntity(user);
             if (nonNull(user.getPhone())) {
-                // necessário por conta do mapeamento bidirecional do JPA
                 var phoneEntity = userEntity.getPhone();
                 phoneEntity.setUser(userEntity);
                 userEntity.setPhone(phoneEntity);
