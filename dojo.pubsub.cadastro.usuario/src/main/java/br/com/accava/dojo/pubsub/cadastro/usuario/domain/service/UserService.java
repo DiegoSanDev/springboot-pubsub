@@ -1,6 +1,5 @@
 package br.com.accava.dojo.pubsub.cadastro.usuario.domain.service;
 
-import br.com.accava.dojo.pubsub.cadastro.usuario.domain.domain.Phone;
 import br.com.accava.dojo.pubsub.cadastro.usuario.domain.domain.User;
 import br.com.accava.dojo.pubsub.cadastro.usuario.domain.exception.MessageError;
 import br.com.accava.dojo.pubsub.cadastro.usuario.domain.exception.UserInvalidException;
