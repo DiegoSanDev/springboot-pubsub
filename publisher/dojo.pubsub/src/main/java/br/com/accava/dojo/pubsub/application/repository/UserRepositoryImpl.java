@@ -25,7 +25,7 @@ import static org.springframework.http.MediaType.APPLICATION_JSON;
 public class UserRepositoryImpl implements UserRepository {
 
     @Value("${service.cadastro-usuario.url}")
-    private final String url;
+    private String url;
 
     private final RestTemplate restTemplate;
 

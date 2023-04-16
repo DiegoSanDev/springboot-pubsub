@@ -19,6 +19,7 @@ public class UserRouter extends RouteBuilder {
         from(SAVE_ROUTER)
             .bean(repository, "save")
             .process(new NotificationProcessor())
+            .to(NotificationRouter.NOTIFICATION_ROUTER)
         .end();
 
     }

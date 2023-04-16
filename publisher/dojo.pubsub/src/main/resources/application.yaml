@@ -3,7 +3,7 @@ spring:
     gcp:
       project-id: pilotopubsub
       credentials:
-        location: classpath:pilotopubsub-f9e9208e2cfa.json
+        location: classpath:pilotopubsub-447a8cb5740c.json
 
 service:
   cadastro-usuario:
