@@ -1,5 +1,6 @@
 package br.com.accava.dojo.pubsub.application.resentation.representation;
 
+import java.io.Serializable;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -11,7 +12,7 @@ import lombok.Setter;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserRepesentation {
+public class UserRepesentation implements Serializable {
 
     private String email;
     private String password;

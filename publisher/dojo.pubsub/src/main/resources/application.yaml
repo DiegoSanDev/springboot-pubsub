@@ -4,3 +4,8 @@ spring:
       project-id: pilotopubsub
       credentials:
         location: classpath:pilotopubsub-f9e9208e2cfa.json
+
+service:
+  cadastro-usuario:
+    url: http://localhost:8082/v1/users
+
