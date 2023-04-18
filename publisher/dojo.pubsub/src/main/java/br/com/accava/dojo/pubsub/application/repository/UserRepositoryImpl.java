@@ -37,6 +37,7 @@ public class UserRepositoryImpl implements UserRepository {
             restTemplate.exchange(url, POST, httpEntity, Void.class);
         } catch (RestClientResponseException e) {
             log.error("Error in save user. ", e);
+            throw e;
         } catch (Exception ex) {
             log.error("Error critical in save user. ", ex);
             throw ex;
